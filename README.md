@@ -96,6 +96,21 @@ Figma Wireframes: https://www.figma.com/design/sIm10bnUy3q600sSsr4CoF/Figma-basi
 
 ![MongoDB ERD](./erd.png)
 
+## State Tree & Mock API
+
+### Frontend State Tree
+
+![TaskMatrix State Tree](./docs/taskmatrix-state-tree.png)
+
+### Mock API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/tasks` | Fetch all tasks |
+| POST | `/api/tasks` | Create a new task |
+| PUT | `/api/tasks/:id` | Update a task |
+| DELETE | `/api/tasks/:id` | Delete a task |
+
 ## Deliverables
 
 * Public GitHub Repository
