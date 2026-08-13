@@ -90,6 +90,12 @@ The application will provide a modern enterprise dashboard with:
 
 Figma Wireframes: https://www.figma.com/design/sIm10bnUy3q600sSsr4CoF/Figma-basics?node-id=2601-9&t=ydepdql82j6GhHKk-1
 
+## System Architecture
+
+### MongoDB ERD
+
+![MongoDB ERD](./erd.png)
+
 ## Deliverables
 
 * Public GitHub Repository
