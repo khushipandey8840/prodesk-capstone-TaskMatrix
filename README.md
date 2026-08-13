@@ -86,6 +86,10 @@ The application will provide a modern enterprise dashboard with:
 * Clear navigation
 * Data visualization
 
+  ## UI/UX Design
+
+Figma Wireframes: https://www.figma.com/design/sIm10bnUy3q600sSsr4CoF/Figma-basics?node-id=2601-9&t=ydepdql82j6GhHKk-1
+
 ## Deliverables
 
 * Public GitHub Repository
