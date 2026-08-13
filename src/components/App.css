@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.navbar {
+  height: 70px;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.hero {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  margin-bottom: 8px;
+}
+
+.hero p {
+  color: #64748b;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.stat {
+  background: #f1f5f9;
+  padding: 18px;
+  border-radius: 10px;
+  min-width: 130px;
+}
+
+.stat strong {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.stat span {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.task-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+}
+
+.task-card {
+  background: white;
+  padding: 18px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.task-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.delete-btn {
+  background: #dc2626;
+}
+
+.empty {
+  background: white;
+  text-align: center;
+  padding: 50px;
+  border-radius: 12px;
+  color: #64748b;
+}
+
+.empty h3 {
+  color: #0f172a;
+}
